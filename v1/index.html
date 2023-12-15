@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>AnonTeleBot</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Telegram Bot Factory</h1>
+        <div class="content">
+            <label for="botSelect">Select Bot</label>
+            <select id="botSelect">
+                <option value="bot1">@AlertPulseBot</option>
+                <option value="bot2">@AlertRushBot</option>
+                <option value="bot3">@HyperAlertsBot</option>
+                <option value="bot4">@QuickNotifyRobot</option>
+                <option value="bot5">@NotifyNinjaRobot</option>
+                <option value="custom">Custom Bot</option>
+            </select>
+
+            <div id="customBotApiKeyContainer" style="display: none;">
+                <label for="customBotApiKey">Enter Your Bot API Key</label>
+                <input type="text" id="customBotApiKey" placeholder="Enter custom bot API key">
+            </div>
+
+            <label for="chatIds">Chat IDs</label>
+            <input type="text" id="chatIds" placeholder="Enter Chat IDs (ex 1234567890,9876543210)">
+
+            <label for="smsContent">Enter Your Message</label>
+            <textarea id="smsContent" rows="4" placeholder="Enter your SMS content"></textarea>
+
+            <label for="imageInput">Select Image (optional)</label>
+            <input type="file" id="imageInput">
+
+            <button id="sendButton">Send Message</button>
+
+            <div id="message">
+                <p id="overallCount">Message Send: 0/0</p>
+            </div>
+            
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
