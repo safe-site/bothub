@@ -2,8 +2,8 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #2b2b2b; /* Dark background color */
-    color: #fff; /* Light text color */
+    background-color: #1d1d1d;
+    color: #fff;
 }
 
 /* Header */
@@ -38,11 +38,11 @@ body {
 
 .container {
     max-width: 600px;
-    margin: 50px auto;
-    background-color: #333; /* Dark container background color */
+    margin: 0 auto;
+    background-color: #2d2c2c;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Adjust shadow color */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
 h1 {
