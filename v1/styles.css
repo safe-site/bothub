@@ -46,9 +46,14 @@ body {
 }
 
 h1 {
+    font-family: 'Arial', sans-serif;
+    color: #3498db; /* Change the color to your preference */
     text-align: center;
-    color: #fff; /* Light heading color */
-}
+    font-size: 36px; /* Adjust the font size as needed */
+    font-weight: bold;
+    margin: 20px 0; /* Adjust the margin as needed */
+  }
+  
 
 .content {
     margin-top: 20px;
@@ -119,12 +124,13 @@ button:hover {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: black;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
     padding-top: 60px;
 }
 
 .modal-content {
-    background-color: #000000;
+    background-color: #353333;
     margin: 5% auto;
     padding: 20px;
     border: 1px solid #888;
@@ -132,7 +138,7 @@ button:hover {
 }
 
 .close {
-    color: #ffffff;
+    color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -159,5 +165,5 @@ th, td {
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #272626;
 }
