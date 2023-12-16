@@ -39,6 +39,7 @@ body {
 .container {
     max-width: 600px;
     margin: 0 auto;
+    margin-bottom: 40px;
     background-color: #2d2c2c;
     padding: 20px;
     border-radius: 8px;
@@ -167,4 +168,12 @@ th, td {
 
 th {
     background-color: #272626;
+}
+
+.how2use {
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
 }
