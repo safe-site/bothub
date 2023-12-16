@@ -47,11 +47,12 @@ body {
 
 h1 {
     font-family: 'Arial', sans-serif;
-    color: #3498db; /* Change the color to your preference */
+    color: #3498db;
     text-align: center;
-    font-size: 36px; /* Adjust the font size as needed */
+    font-size: 34px;
     font-weight: bold;
-    margin: 20px 0; /* Adjust the margin as needed */
+    margin: 20px 0;
+    padding: 0 10px;
   }
   
 
