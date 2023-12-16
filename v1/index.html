@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <!-- Include it for PWA (start) -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="theme-color" content="#000000">
+<link rel="manifest" href="manifest.json">
+<!-- Include it for PWA (end) -->
     
     <title>AnonTeleBot</title>
 </head>
-<body>       
+<body>   
+    <!-- Include it for PWA (start) -->
+    <button id="installButton" style="display: none;">Install App</button>
+    <!-- Include it for PWA (end) -->
 
     <div class="header">
         <div class="header-name">Tele Bot 
@@ -66,7 +75,10 @@
     </div>
 </div>
 
-            
+      <!-- Include it for PWA (start) -->
+      <script src="register-service-worker.js"></script>
+    <script src="install.js"></script>
+      <!-- Include it for PWA (end) -->      
 
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
