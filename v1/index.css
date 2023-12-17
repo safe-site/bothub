@@ -173,15 +173,18 @@ th {
     background-color: #272626;
 }
 
-
-
-.how2use a {
+.how2use {
     display: flex;
-    color: #926c04;
-    font-size: 20px;
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
+    bottom: 0;
+    left: 0;
+}
+
+.how2use a {
+    color: #926c04;
+    font-size: 20px;
     bottom: 0;
     left: 0;
 }
