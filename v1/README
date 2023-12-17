@@ -1,0 +1,77 @@
+# Turbocharged TeleBots for Instant Outreach!
+
+Turbocharge your Telegram bot messaging with this interactive interface. Easily send SMS-like messages and images to multiple users simultaneously.
+
+## Table of Contents
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
+- [How to Use](#how-to-use)
+- [Example Bots](#example-bots)
+- [Important Note](#important-note)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+### Usage
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/safe-site/bothub.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd telegram-bot-interface
+    ```
+
+3. Open `index.html` in your web browser.
+
+## How to Use
+
+1. **Choose a Bot:**
+   - Select a bot from the dropdown menu.
+
+2. **Enter Chat IDs:**
+   - Enter the Telegram Chat IDs of the users you want to send messages to. Separate multiple Chat IDs with commas.
+
+3. **Enter SMS Content:**
+   - Type your message in the SMS Content textarea.
+
+4. **Select Image (Optional):**
+   - Optionally, you can select an image to send along with the message.
+
+5. **Send Message:**
+   - Click the "Send Message" button to send your message.
+
+## Example Bots
+
+These are some example bots that you can use in this tool:
+
+- [AlertPulseBot](https://telegram.me/AlertPulseBot)
+- [AlertRushBot](https://telegram.me/AlertRushBot)
+- [HyperAlertsBot](https://telegram.me/HyperAlertsBot)
+- [QuickNotifyRobot](https://telegram.me/QuickNotifyRobot)
+- [NotifyNinjaRobot](https://telegram.me/NotifyNinjaRobot)
+
+## Important Note
+
+Ensure that you have started the bot on Telegram before attempting to send messages. If the user has not started the bot, messages cannot be sent to them.
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
