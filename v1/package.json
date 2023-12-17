@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "local": "^0.3.3",
+    "package": "^1.0.1"
+  }
+}
