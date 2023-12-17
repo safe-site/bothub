@@ -1,7 +1,7 @@
 {
-    "name": "TurboBots-Turbocharged Telegram Bots for Instant Outreach!",
+    "name": "TurboBots",
     "short_name": "TurboBots",
-    "description": "A Powerfull WebApp for Instant Outreach Through telegram Bot!",
+    "description": "A Powerfull WebApp for Instant Outreach Through telegram TurboBots!",
     "start_url": "index.html",
     "display": "standalone",
     "background_color": "black",

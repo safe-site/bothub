@@ -57,6 +57,45 @@
             margin-bottom: 15px;
         }
 
+        h4 {
+            color: #00ff6e;
+            margin-bottom: 15px;
+        }
+
+        ol {
+            color: #ffd900;
+            margin-bottom: 15px;
+        }
+
+        #important-note {
+            color: #ffd900;
+            font-weight: bold;
+        }
+
+        .bots-list {
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .bots-list h3 {
+            color: #3498db;
+        }
+
+        .bots-list ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .bots-list li {
+            margin-bottom: 10px;
+        }
+
+        .bots-list a {
+            color: #3498db;
+            text-decoration: underline;
+        }
+
 
        
     </style>
@@ -77,8 +116,8 @@
                 Select a bot from the dropdown menu. You can choose from predefined bots or create your own bot
                 and obtain the API key.
             </p>
+            <h4>Below are the steps to follow to generate your own token.</h4>
             <ol>
-                <h4>Below are the steps to follow to generate your own token.</h4>
                 <li>Search BotFather on Telegram.</li>
                 <li>Type /start to get started.</li>
                 <li>Type /newbot to get a bot.</li>
@@ -106,8 +145,26 @@
             <h3>Step 4: Send Message</h3>
             <p>Click the "Send Message" button to send your SMS to the specified users. The tool will display the overall count of successful and unsuccessful messages.</p>
 
+            <p id="important-note">
+                <span style=" color: #ff0000;">Important Note:</span> Ensure that you have started the bot on Telegram before attempting to send messages.
+                If the user has not started the bot, messages cannot be sent to them.
+            </p>
+            
+
             <h3>View Results</h3>
             <p>Click on the overall count to view details about successful and unsuccessful Chat IDs.</p>
+
+            <div class="bots-list">
+            <h3>Example Bots</h3>
+            <p>These are some bots that you can use in this tool:</p>
+            <ul>
+                <li><a href="https://telegram.me/AlertPulseBot" target="_blank">AlertPulseBot</a></li>
+                <li><a href="https://telegram.me/AlertRushBot" target="_blank">AlertRushBot</a></li>
+                <li><a href="https://telegram.me/HyperAlertsBot" target="_blank">HyperAlertsBot</a></li>
+                <li><a href="https://telegram.me/QuickNotifyRobot" target="_blank">QuickNotifyRobot</a></li>
+                <li><a href="https://telegram.me/NotifyNinjaRobot" target="_blank">NotifyNinjaRobot</a></li>
+            </ul>
+        </div>
         </div>
 
          <!-- Back to Tool Button -->
