@@ -172,14 +172,12 @@ th {
     background-color: #272626;
 }
 
-#line {
-    color: #6b6b6b;
-}
+
 
 .how2use a {
     display: flex;
     color: #926c04;
-    text-decoration: none;
+    font-size: 20px;
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
