@@ -84,6 +84,8 @@ input[type="file"] {
     margin-top: 5px;
 }
 
+
+
 .btn-and-send {
     display: grid;
     grid-template-columns: 40% 60%;
