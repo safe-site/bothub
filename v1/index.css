@@ -172,6 +172,10 @@ th {
     background-color: #272626;
 }
 
+#line {
+    color: #6b6b6b;
+}
+
 .how2use a {
     display: flex;
     color: #926c04;
